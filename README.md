@@ -19,11 +19,11 @@ In console: <br/>
 var utilityBelt = new Batman.UtilityBelt(applicationName)<br/>
 utilityBelt.displayRoutes();<br/>
 
-Example (apps name is called EST in est.coffee):<br/>
-window.EST = class EST extends Batman.App<br/>
+Example (my apps name is called **EST** in est.coffee):<br/>
+window.**EST** = class **EST** extends Batman.App<br/>
 
 And then in console:<br/>
-var utilityBelt = new Batman.UtilityBelt(EST)<br/>
+var utilityBelt = new Batman.UtilityBelt(**EST**)<br/>
 utilityBelt.displayRoutes();<br/>
 
 **Example Output:**<br/>
@@ -60,3 +60,12 @@ Total number of routes: 5<br/>
         <td>/rows/:id</td>
     </tr>
 </table>
+
+Raw:
+`Total number of routes: 5
+__Controller__        __Action__      __Pattern__                      
+app                   index           /                                
+rows                  edit            /rows/:id/edit                   
+rows                  index           /rows                            
+rows                  new             /rows/new                        
+rows                  show            /rows/:id`                        
