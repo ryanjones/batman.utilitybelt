@@ -15,19 +15,19 @@ View all Routes
 
 View all Routes:
 --------
-In console:
-var utilityBelt = new Batman.UtilityBelt(applicationName)
-utilityBelt.displayRoutes();
+In console: <br/>
+var utilityBelt = new Batman.UtilityBelt(applicationName)<br/>
+utilityBelt.displayRoutes();<br/>
 
-Example (apps name is called EST in est.coffee):
-window.EST = class EST extends Batman.App
+Example (apps name is called EST in est.coffee):<br/>
+window.EST = class EST extends Batman.App<br/>
 
-And then in console:
-var utilityBelt = new Batman.UtilityBelt(EST)
-utilityBelt.displayRoutes();
+And then in console:<br/>
+var utilityBelt = new Batman.UtilityBelt(EST)<br/>
+utilityBelt.displayRoutes();<br/>
 
-Output:
-Total number of routes: 14 batman.utilitybelt.js:61
+Example Output:<br/>
+Total number of routes: 5<br/>
 <table>
     <tr>
         <td>__Controller__</td>
@@ -39,20 +39,29 @@ Total number of routes: 14 batman.utilitybelt.js:61
         <td>index</td>
         <td>/</td>
     </tr>
+    <tr>
+        <td>rows</td>
+        <td>edit</td>
+        <td>/rows/:id/edit</td>
+    </tr>
+    <tr>
+        <td>rows</td>
+        <td>index</td>
+        <td>/rows</td>
+    </tr>
+    <tr>
+        <td>rows</td>
+        <td>new</td>
+        <td>/rows/new</td>
+    </tr>
+    <tr>
+        <td>rows</td>
+        <td>show</td>
+        <td>/rows/:id</td>
+    </tr>
+    <tr>
+        <td>rows</td>
+        <td>show</td>
+        <td>/rows/:id</td>
+    </tr>
 </table>
-
-                              /                       
-app                   index           /app                    
-rows                  edit            /rows/:id/edit          
-rows                  index           /rows                   
-rows                  new             /rows/new               
-rows                  show            /rows/:id               
-sectionrows           edit            /sectionrows/:id/edit   
-sectionrows           index           /sectionrows            
-sectionrows           new             /sectionrows/new        
-sectionrows           show            /sectionrows/:id        
-sections              edit            /sections/:id/edit      
-sections              index           /sections               
-sections              new             /sections/new           
-sections              show            /sections/:id           
-
