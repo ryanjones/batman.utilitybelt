@@ -1,8 +1,10 @@
 class Batman.UtilityBelt extends Batman.Object
+  constructor: (app) ->
+    @app = app
 
-  @displayRoutes: ->
+  displayRoutes: ->
     # grab all of the routes
-    routeMap = EST.get('routes').routeMap.childrenByOrder
+    routeMap = @app.get('routes').routeMap.childrenByOrder
 
     # find the max length of controller / action / pattern
     maxControllerLength = 0
@@ -17,19 +19,19 @@ class Batman.UtilityBelt extends Batman.Object
       routesArray.push(routeMap[num])
 
     # display # of routes and headers
-    @log('Total number of routes: ' + routeMap.length)
-    @log(@fixWidth('__Controller__', maxControllerLength) + @fixWidth('__Action__', maxActionLength) + @fixWidth('__Pattern__', maxPatternLength))
+    log('Total number of routes: ' + routeMap.length)
+    log(fixWidth('__Controller__', maxControllerLength) + fixWidth('__Action__', maxActionLength) + fixWidth('__Pattern__', maxPatternLength))
 
     # sort the routes
-    routesArray.sort(@sortRouteMap)
+    routesArray.sort(sortRouteMap)
 
     # pad the string with spaces
     for num in [0..routeMap.length - 1] by 1
-      @log(@fixWidth(routesArray[num].controller, maxControllerLength) + @fixWidth(routesArray[num].action, maxActionLength) + @fixWidth(routesArray[num].pattern, maxPatternLength))
+      log(fixWidth(routesArray[num].controller, maxControllerLength) + fixWidth(routesArray[num].action, maxActionLength) + fixWidth(routesArray[num].pattern, maxPatternLength))
     return undefined
 
   # sort route function
-  @sortRouteMap = (a,b) ->
+  sortRouteMap = (a,b) ->
     if (a.controller < b.controller)
      return -1
     if (a.controller > b.controller)
@@ -41,14 +43,10 @@ class Batman.UtilityBelt extends Batman.Object
         return 1
     return 0;
 
-  @fixWidth = (strang, width) ->
+  fixWidth = (strang, width) ->
     # tack on the padding amount
     width = width + 12
     return strang + new Array(width - strang.length).join(" ");
 
-  @log = (msg) ->
+  log = (msg) ->
     console?.log msg
-
-
-
-
