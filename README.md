@@ -26,7 +26,7 @@ And then in console:<br/>
 var utilityBelt = new Batman.UtilityBelt(EST)<br/>
 utilityBelt.displayRoutes();<br/>
 
-Example Output:<br/>
+*Example Output:*<br/>
 Total number of routes: 5<br/>
 <table>
     <tr>
@@ -53,11 +53,6 @@ Total number of routes: 5<br/>
         <td>rows</td>
         <td>new</td>
         <td>/rows/new</td>
-    </tr>
-    <tr>
-        <td>rows</td>
-        <td>show</td>
-        <td>/rows/:id</td>
     </tr>
     <tr>
         <td>rows</td>
