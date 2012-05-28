@@ -63,5 +63,5 @@ Total number of routes: 5<br/>
 
 Contributors
 --------
-RyanonRails
+RyanonRails <br/>
 MathieuGilbert
