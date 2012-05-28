@@ -28,8 +28,20 @@ utilityBelt.displayRoutes();
 
 Output:
 Total number of routes: 14 batman.utilitybelt.js:61
-__Controller__        __Action__      __Pattern__             
-app                   index           /                       
+<table>
+    <tr>
+        <td>__Controller__</td>
+        <td>__Action__</td>
+        <td>__Pattern__</td>
+    </tr>
+    <tr>
+        <td>app</td>
+        <td>index</td>
+        <td>/</td>
+    </tr>
+</table>
+
+                              /                       
 app                   index           /app                    
 rows                  edit            /rows/:id/edit          
 rows                  index           /rows                   
