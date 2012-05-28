@@ -29,17 +29,31 @@ utilityBelt.displayRoutes();
 Output:
 Total number of routes: 14 batman.utilitybelt.js:61
 __Controller__        __Action__      __Pattern__                      batman.utilitybelt.js:61
+
 app                   index           /                                batman.utilitybelt.js:61
+
 app                   index           /app                             batman.utilitybelt.js:61
+
 rows                  edit            /rows/:id/edit                   batman.utilitybelt.js:61
+
 rows                  index           /rows                            batman.utilitybelt.js:61
+
 rows                  new             /rows/new                        batman.utilitybelt.js:61
+
 rows                  show            /rows/:id                        batman.utilitybelt.js:61
+
 sectionrows           edit            /sectionrows/:id/edit            batman.utilitybelt.js:61
+
 sectionrows           index           /sectionrows                     batman.utilitybelt.js:61
+
 sectionrows           new             /sectionrows/new                 batman.utilitybelt.js:61
+
 sectionrows           show            /sectionrows/:id                 batman.utilitybelt.js:61
+
 sections              edit            /sections/:id/edit               batman.utilitybelt.js:61
+
 sections              index           /sections                        batman.utilitybelt.js:61
+
 sections              new             /sections/new                    batman.utilitybelt.js:61
+
 sections              show            /sections/:id                    batman.utilitybelt.js:61
