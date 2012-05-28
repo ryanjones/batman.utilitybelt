@@ -6,7 +6,7 @@ Both .coffee and .js included
 
 Installation
 --------
-Add to website via   <script src="/app/vendor/batman.utilitybelt.js" type="text/javascript"></script>
+Add to website via `<script src="/app/vendor/batman.utilitybelt.js" type="text/javascript"></script>`
 
 Features:
 --------
@@ -26,7 +26,7 @@ And then in console:<br/>
 var utilityBelt = new Batman.UtilityBelt(EST)<br/>
 utilityBelt.displayRoutes();<br/>
 
-*Example Output:*<br/>
+**Example Output:**<br/>
 Total number of routes: 5<br/>
 <table>
     <tr>
