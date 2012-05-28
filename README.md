@@ -61,11 +61,7 @@ Total number of routes: 5<br/>
     </tr>
 </table>
 
-Raw:
-`Total number of routes: 5\n
-__Controller__        __Action__      __Pattern__    \n                  
-app                   index           /                  \n              
-rows                  edit            /rows/:id/edit     \n              
-rows                  index           /rows             \n               
-rows                  new             /rows/new         \n               
-rows                  show            /rows/:id`       \n                 
+Contributors
+--------
+RyanonRails
+MathieuGilbert
