@@ -62,10 +62,10 @@ Total number of routes: 5<br/>
 </table>
 
 Raw:
-`Total number of routes: 5
-__Controller__        __Action__      __Pattern__                      
-app                   index           /                                
-rows                  edit            /rows/:id/edit                   
-rows                  index           /rows                            
-rows                  new             /rows/new                        
-rows                  show            /rows/:id`                        
+`Total number of routes: 5\n
+__Controller__        __Action__      __Pattern__    \n                  
+app                   index           /                  \n              
+rows                  edit            /rows/:id/edit     \n              
+rows                  index           /rows             \n               
+rows                  new             /rows/new         \n               
+rows                  show            /rows/:id`       \n                 
