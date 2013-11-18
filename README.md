@@ -6,7 +6,7 @@ Both .coffee and .js included
 
 Installation
 --------
-Add to website via `<script src="/app/vendor/batman.utilitybelt.js" type="text/javascript"></script>`
+Add to website via `/app/assets/batman/lib/`
 
 Features:
 --------
@@ -63,5 +63,5 @@ Total number of routes: 5<br/>
 
 Contributors
 --------
-- RyanonRails
-- MathieuGilbert
+- [RyanonRails](https://github.com/RyanonRails)
+- [MathieuGilbert](https://github.com/MathieuGilbert)
